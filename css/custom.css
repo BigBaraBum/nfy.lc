@@ -1613,11 +1613,17 @@ ul.three-col li:first-child {
 }
 
 .order-input-area .input-holder input:not([type="submit"]) {
-  padding-left: 40px;
+  padding-left: 20px;
 }
 
-.order-input-area .input-holder label:nth-last-child(2) {
-  left: 50%;
+.order-input-area .input-holder label:nth-child(3) {
+  left: 40%;
+}
+
+.order-input-area .input-holder label:last-child {
+  left: 80%;
+  color: red;
+  cursor: pointer;
 }
 
 .order-input-area .input-holder {

@@ -76,7 +76,10 @@ jQuery("document").ready(function ($) {
   //if(jQuery(window).width() > 991)  {
 $(".trade-btn-holdder").on("click", function(){
   $(this).next(".order-input-area").removeClass("opacity");
-})
+});
+$(".cancel-label").on('click', function(){
+  ($(this).parent().parent().addClass("opacity"));
+});
 
 
 
