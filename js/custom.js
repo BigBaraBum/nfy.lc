@@ -34,6 +34,33 @@ jQuery(document).ready(function () {
 });
 
 
+//trade nfy nft section
+//sell
+
+$("#btn-sell-nfy").on("click", function(){
+  $("#orderPrice-sell-nfy").val($("#price-sell-nfy").val());
+  $("#orderQuantity-sell-nfy").val($("#quantity-sell-nfy").val());
+});
+
+$("#btn-buy-nfy").on("click", function(){
+  $("#orderPrice-buy-nfy").val($("#price-buy-nfy").val());
+  $("#orderQuantity-buy-nfy").val($("#quantity-buy-nfy").val());
+});
+
+$("#btn-sell-eth").on("click", function(){
+  $("#orderPrice-sell-eth").val($("#price-sell-eth").val());
+  $("#orderQuantity-sell-eth").val($("#quantity-sell-eth").val());
+});
+
+$("#btn-buy-eth").on("click", function(){
+  $("#orderPrice-buy-eth").val($("#price-buy-eth").val());
+  $("#orderQuantity-buy-eth").val($("#quantity-buy-eth").val());
+});
+
+
+//trade nfy-eth lp nft section
+//sell
+
 /*wow = new WOW(
   {
     boxClass: 'wow',
@@ -47,6 +74,11 @@ jQuery(document).ready(function () {
 jQuery("document").ready(function ($) {
   jQuery("select").niceSelect();
   //if(jQuery(window).width() > 991)  {
+$(".trade-btn-holdder").on("click", function(){
+  $(this).next(".order-input-area").removeClass("opacity");
+})
+
+
 
   $(".toggle-button").on("change", function (){
     if($(".toggle-button").is(":checked")){

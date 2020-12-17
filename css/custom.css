@@ -1583,8 +1583,12 @@ ul.three-col li:first-child {
 #deposit-scrollbox{
   min-height: 80px;
 }
+
 .darker-title{
   opacity: 0.5;
+}
+.opacity{
+  opacity: 0;
 }
 .hidden {
   display: none;
