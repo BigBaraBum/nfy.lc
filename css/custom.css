@@ -1619,6 +1619,9 @@ ul.three-col li:first-child {
 .order-input-area .input-holder label:nth-child(3) {
   left: 40%;
 }
+#deposit-scrollbox ul:hover{
+  cursor: pointer;
+}
 
 .order-input-area .input-holder label:last-child {
   left: 80%;
